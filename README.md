@@ -1,2 +1,2 @@
 # SudokuSama
-Apk can be found in /app/build/outputs/apk/
+Runnable apk file is app-debug.apk
