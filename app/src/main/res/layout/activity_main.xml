@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bt_play"
+        android:layout_below="@+id/tv_title"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:contentDescription="@string/icon"
+        app:srcCompat="@drawable/icon" />
+
+    <Button
+        android:id="@+id/bt_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/bt_leave"
+        android:layout_alignStart="@+id/bt_leave"
+        android:layout_centerVertical="true"
+        android:onClick="main_play"
+        android:text="@string/play" />
+
+    <Button
+        android:id="@+id/bt_scores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bt_credits"
+        android:layout_below="@+id/bt_play"
+        android:onClick="main_scores"
+        android:text="@string/scores" />
+
+    <Button
+        android:id="@+id/bt_credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_scores"
+        android:layout_centerHorizontal="true"
+        android:onClick="main_credits"
+        android:text="@string/credits" />
+
+    <Button
+        android:id="@+id/bt_leave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="main_leave"
+        android:text="@string/leave" />
+
+</RelativeLayout>
