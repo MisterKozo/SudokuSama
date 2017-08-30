@@ -1,0 +1,21 @@
+<resources>
+    <string name="okay">Got it</string>
+    <string name="yes">Da</string>
+    <string name="no">Nyet</string>
+
+    <string name="app_name">SudokuSama</string>
+    <string name="credits">CREDITS</string>
+    <string name="leave">LEAVE</string>
+    <string name="play">PLAY</string>
+    <string name="icon">Icon</string>
+
+    <string name="creditsTitle">Credits</string>
+    <string name="creditsText">This app is a school project that was made by MisterKozo\n\nIt implements Eric Beijer\'s Game.java Sudoku algorithm\n\nThe icons are from Iconfinder.com\n\nDon\'t hesitate to contact me:\nspicyDudu666@gmail.com</string>
+
+    <string name="leaveTitle">Confirm</string>
+    <string name="leaveText">Are you sure you want to leave?</string>
+    <string name="scores">Scores</string>
+    <string name="offline">Offline</string>
+    <string name="online">Online</string>
+    <string name="scoresb">SCORES</string>
+</resources>
