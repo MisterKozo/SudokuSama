@@ -10,8 +10,3 @@ Changes:
 - Fixed positioning of numbers in GameView
 - Colorful number selection
 - Removed online stubs (it's a useless feature)
-
-Remaining bugs:
-- Both AsyncTasks (CounterTask and GenerateGame) are never destroyed
---As a result, timer keeps going while not playing, and you can't generate more than one game in a session
-- Offline scores don't show the date
