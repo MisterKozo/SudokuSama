@@ -1,5 +1,5 @@
 # SudokuSama
-If you need a precompiled apk file, apk-debug should work.
+If you need a precompiled apk file, app-debug should work.
 
 Badly designed Sudoku app for Android (badly as in behind the scenes, but it should run fine on most modern phones, it does on my Galaxy S7)
 Feel free to reuse or rewrite this code according to the GPL
